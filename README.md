@@ -1,1 +1,1 @@
-# Employee-Management
+# School-Management
