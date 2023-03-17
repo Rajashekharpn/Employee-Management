@@ -1,0 +1,9 @@
+<p>home works!</p>
+<div class="form-group">
+    <form action="">
+        <label for="FirstName"> FirstName</label>
+        <input required  minlength="2" type="text" ngModel name="FirstName"  #firstName="ngModel" (change)="log(firstName)" [appInputFormate]="'upperCase'">
+        <div *ngIf="!firstName.valid && firstName.touched">FirstName is required..</div>
+    </form>
+</div>
+<button (click)="test()">click</button>
